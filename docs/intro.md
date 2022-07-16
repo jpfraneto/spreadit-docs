@@ -2,46 +2,12 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introducción - ¿Por qué existe este lugar en internet?
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Esta es la documentación para la aplicación [Spreadit](https://www.spreadit.io), que construí para demostrar mi valía como full stack developer y así convertirme en parte del equipo de Buda.com. Más que mi valía, lo que me gustaría compartir es mi potencial.
 
-## Getting Started
+Soy un alumno eterno de la vida, siempre buscando aprender, siempre queriendo reconocer mis puntos ciegos y mis puntos fuertes, para así poder enfrentar cada desafío que se me presenta con humildad, claridad y corazón.
 
-Get started by **creating a new site**.
+Llevo mucho tiempo entrenándome de formas diferentes, y llegó el momento de salir al mercado para poder construir valor desde todo lo que he aprendido en el camino. Sé que la vida no es un juego de blancos y negros, si no que un viaje en el que es necesario avanzar integrando todo lo que sucede con el fin de cumplir con el que considero el objetivo último: Vivir en presencia.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Es por esto que llego a _Buda_, después de haber descubierto en Bitcoin el antídoto que mi corazón lleva tanto tiempo anhelando. Desde que tengo memoria que hay en mi un profundo descontento por como funciona la sociedad. La mayoría de las cosas que veo alrededor mío no me hacen sentido, y creo que esto se ha ido calcificando poco a poco en el inconsciente colectivo. La transformación radical del motor que mueve nuestras acciones (el dinero) es lo que más se acerca a un camino orgánico para seguir avanzando, y quiero entregarle toda mi energía, todo lo que soy, a este sueño. Quiero ser de los que construyan el futuro en el que mi hija va a crecer.

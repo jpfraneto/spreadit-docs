@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Jpictoin',
+  title: 'Spreadit',
   tagline: 'Making sense of bitcoin',
   url: 'https://www.bitcoinjp.com',
   baseUrl: '/',
@@ -59,7 +59,7 @@ const config = {
       navbar: {
         title: 'Spreadit',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Bitcoin Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -67,7 +67,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
