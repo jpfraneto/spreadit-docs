@@ -56,10 +56,7 @@ const config = {
     ({
       navbar: {
         title: 'Spreadit',
-        logo: {
-          alt: 'Bitcoin Logo',
-          src: 'img/logo.svg',
-        },
+
         items: [
           {
             type: 'doc',

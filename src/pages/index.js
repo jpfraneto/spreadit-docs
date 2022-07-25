@@ -37,7 +37,9 @@ function HomepageHeader() {
           </Link>
           <a
             className='button button--secondary button--lg'
+            target='_blank'
             href='https://www.spreadit.pro'
+            rel='noreferrer'
           >
             Live Version
           </a>
