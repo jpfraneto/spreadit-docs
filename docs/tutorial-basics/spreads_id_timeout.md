@@ -1,8 +1,8 @@
 ---
-sidebar_position: 5
+sidebar_position: 7
 ---
 
-# Spreads
+# Spread Of Market
 
 Add **Markdown or React** files to `src/pages` to create a **standalone page**:
 

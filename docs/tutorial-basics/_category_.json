@@ -3,6 +3,6 @@
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "Learn about the spreads API"
+    "description": "Acá se encuentra la documentación de la aplicación Spreadit, cuya principal funcionalidad es una API que entrega como información principal el spread de los distintos mercados que se transan en Buda.com. El spread de un mercado particular es la diferencia entre el precio máximo que está dispuesto a pagar un determinado comprador de un activo con el precio mínimo que está dispuesto a recibir un vendedor. Básicamente es la diferencia en el valor que percibe el mercado del determinado activo, y es una representación numérica de la liquidez del activo. Mientras más grande el spread, menos líquido el activo."
   }
 }

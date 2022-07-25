@@ -2,9 +2,15 @@
 sidebar_position: 1
 ---
 
-# Introducción - ¿Por qué existe este lugar en internet?
+# Introducción: ¿Por qué existe este lugar?
 
-Esta es la documentación para la aplicación [Spreadit](https://www.spreadit.io), que construí para demostrar mi valía como full stack developer y así convertirme en parte del equipo de Buda.com. Más que mi valía, lo que me gustaría compartir es mi potencial.
+Esta es la documentación para la aplicación [Spreadit](https://spreaditjpfs.herokuapp.com/), que construí para demostrar mi valía como full stack developer y así convertirme en parte del equipo de Buda.com. Más que mi valía, lo que me gustaría compartir es mi potencial. No puedo compartir mi valía porque esa es una exploración en la que me embarco todos los días al tomar las decisiones que me llevan a avanzar hacia lo que es importante para mi.
+
+`Si no te interesa leer lo que viene ahora puedes saltarte directamente a la documentación:`
+
+[Ir a la documentación](./tutorial-basics/rest_api)
+
+---
 
 Soy un alumno eterno de la vida, siempre buscando aprender, siempre queriendo reconocer mis puntos ciegos y mis puntos fuertes, para así poder enfrentar cada desafío que se me presenta con humildad, claridad y corazón.
 

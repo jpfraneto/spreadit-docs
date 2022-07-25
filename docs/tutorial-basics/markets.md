@@ -1,53 +1,48 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Markets
 
-Un mercado particular está determinado por un par de identificadores, de la forma `base_currency` y `quote_currency`, donde `base_currency` es el tipo de moneda que se vende en este mercado, y `quote_currency` es el tipo de moneda que se utiliza para pagar. En este momento, spreadit trabaja con 22 mercados diferentes, los mismos que están disponibles en buda.com.
+Esta ruta es para obtener la información de todos los mercados que están disponibles en Buda.com.
 
-**HTTP Requests**
+La respuesta es un objeto con la propiedad markets, que es un array donde cada elemento es un mercado particular, que cuenta con las siguientes propiedades:
 
-`GET /markets`
+<button>GET</button> /markets
 
-`GET /markets/<market_id>`
-
----
-
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
-
-- `src/pages/index.js` -> `localhost:3000/`
-- `src/pages/foo.md` -> `localhost:3000/foo`
-- `src/pages/foo/bar.js` -> `localhost:3000/foo/bar`
-
-## Create your first React Page
-
-Create a file at `src/pages/my-react-page.js`:
-
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
-
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
+```json
+{
+  "markets": [
+    {
+      "id": "BTC-CLP",
+      "name": "btc-clp",
+      "base_currency": "BTC",
+      "quote_currency": "CLP",
+      "minimum_order_amount": ["0.00002", "BTC"],
+      "taker_fee": "0.8",
+      "maker_fee": "0.4"
+    },
+    {
+      "id": "BTC-COP",
+      "name": "btc-cop",
+      "base_currency": "BTC",
+      "quote_currency": "COP",
+      "minimum_order_amount": ["0.00002", "BTC"],
+      "taker_fee": "0.8",
+      "maker_fee": "0.4"
+    }, ...
+  ]
 }
 ```
 
-A new page is now available at `http://localhost:3000/my-react-page`.
+##### Explicación de las propiedades de cada mercado:
 
-## Create your first Markdown Page
-
-Create a file at `src/pages/my-markdown-page.md`:
-
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
-```
-
-A new page is now available at `http://localhost:3000/my-markdown-page`.
+| Propiedad                                     | Tipo Elemento      | Descripción                                         |
+| --------------------------------------------- | ------------------ | --------------------------------------------------- |
+| <code><var>id</var></code>                    | number             | Identificador del mercado                           |
+| <code><var>name</var></code>                  | number             | Nombre del mercado el cual corresponde al market_id |
+| <code><var>base_currency</var></code>         | string             | Moneda de cambio                                    |
+| <code><var>quote_currency</var></code>        | string             | Moneda de pago                                      |
+| <code><var>minimum_order_ammount</var></code> | [amount, currency] | Tamaño de orden mínimo aceptado                     |
+| <code><var>taker_fee</var></code>             | string             | Tarifa pagada por una orden taker                   |
+| <code><var>maker_fee</var></code>             | string             | Tarifa pagada por una orden maker                   |

@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Spreadit',
-  tagline: 'Making sense of bitcoin',
-  url: 'https://www.bitcoinjp.com',
+  tagline: 'Fortaleciendo el caballo de troya del siglo 21',
+  url: 'https://docs.spreadit.pro',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -36,15 +36,13 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/jpfraneto/spreadit-docs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/jpfraneto/spreadit-docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -81,38 +79,42 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Otros Proyectos',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '21tv',
+                to: 'https://www.theinfinitejest.tv',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Contáctame',
             items: [
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/jpfraneto',
               },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/jpfraneto',
+              },
+              {
+                label: 'jp@theopensourcefactory.com',
+                href: 'mailto: jp@theopensourcefactory.com',
+              },
             ],
           },
           {
-            title: 'More',
+            title: 'Más',
             items: [
               {
                 label: 'Blog',
                 to: '/blog',
               },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/jpfraneto/spreadit-docs',
-              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} jpfraneto, Inc. Built with Docusaurus.`,
+        copyright: `"Bitcoin is a swarm of cyber hornets serving the goddess of wisdom, feeding on the fire of truth, exponentially growing ever smarter, faster, and stronger behind a wall of encrypted energy." Michael Saylor`,
       },
       prism: {
         theme: lightCodeTheme,
