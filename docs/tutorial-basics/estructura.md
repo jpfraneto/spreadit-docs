@@ -20,6 +20,3 @@ Las rutas que están disponibles son las siguientes, todas usando <button>GET</b
 
 - [/markets](./markets)
 - [/markets/:market_id](./markets_id)
-- [/spreads](./spreads)
-- [/spreads/:market_id](./spreads_id)
-- [/spreads/:market_id/:timeout](./spreads_timeout)
