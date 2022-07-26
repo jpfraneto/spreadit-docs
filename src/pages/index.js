@@ -20,6 +20,8 @@ function HomepageHeader() {
         <div className='iframecontainer'>
           <iframe
             className='responsive__iframe'
+            width='100%'
+            height='auto'
             src='https://www.youtube.com/embed/3xH1vBuDbBA'
             frameborder='0'
             allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
