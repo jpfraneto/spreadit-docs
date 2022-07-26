@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Spreadit',
+  title: 'Spreadit ',
   tagline: 'Fortaleciendo el caballo de troya del siglo 21',
   url: 'https://docs.spreadit.pro',
   baseUrl: '/',
