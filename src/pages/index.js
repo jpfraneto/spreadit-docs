@@ -16,17 +16,16 @@ function HomepageHeader() {
       <div className='container'>
         <h1 className='hero__title'>{siteConfig.title}</h1>
         <p className='hero__subtitle'>{siteConfig.tagline} </p>
-        <a href='https://www.youtube.com/watch?v=3xH1vBuDbBA' target='_blank'>
-          <span>Video</span>
-        </a>
-        <iframe
-          width='675'
-          height='380'
-          src='https://www.youtube.com/embed/3xH1vBuDbBA'
-          frameborder='0'
-          allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-          allowfullscreen
-        ></iframe>
+
+        <div className='iframecontainer'>
+          <iframe
+            className='responsive__iframe'
+            src='https://www.youtube.com/embed/3xH1vBuDbBA'
+            frameborder='0'
+            allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+            allowfullscreen
+          ></iframe>
+        </div>
 
         <div className={styles.buttons}>
           <Link
