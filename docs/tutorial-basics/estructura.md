@@ -16,7 +16,11 @@ El stack tecnológico con el cual fue construida es el siguiente:
 
 Puedes acceder a la aplicación en el siguiente link [api.spreadit.pro](https://spreaditjpfs.herokuapp.com/).
 
-Las rutas que están disponibles son las siguientes, todas usando <button>GET</button> requests:
+Las rutas que están disponibles son las siguientes:
 
-- [/markets](./markets)
-- [/markets/:market_id](./markets_id)
+- [<button>GET</button> /api/markets](./markets)
+- [<button>GET</button> /api/markets/:market_id](./markets_id)
+- [<button>GET</button> /api/spreads](./spreads)
+- [<button>GET</button> /api/spreads/:market_id](./spreads_by_markets_id)
+- [<button>POST</button> /api/spreads/alert](./alert)
+- [<button>GET</button> /api/spreads/alert/alert_id](./alert_by_id)

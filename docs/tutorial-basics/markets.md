@@ -8,7 +8,7 @@ Esta ruta es para obtener la información de todos los mercados que están dispo
 
 La respuesta es un objeto con la propiedad markets, que es un array donde cada elemento es un mercado particular, que cuenta con las siguientes propiedades:
 
-<button>GET</button> /markets
+<button>GET</button> /api/spreads/:marketid
 
 ```json
 {
@@ -39,7 +39,7 @@ La respuesta es un objeto con la propiedad markets, que es un array donde cada e
 
 | Propiedad                                     | Tipo Elemento      | Descripción                                         |
 | --------------------------------------------- | ------------------ | --------------------------------------------------- |
-| <code><var>id</var></code>                    | number             | Identificador del mercado                           |
+| <code><var>id</var></code>                    | string             | Identificador del mercado                           |
 | <code><var>name</var></code>                  | number             | Nombre del mercado el cual corresponde al market_id |
 | <code><var>base_currency</var></code>         | string             | Moneda de cambio                                    |
 | <code><var>quote_currency</var></code>        | string             | Moneda de pago                                      |

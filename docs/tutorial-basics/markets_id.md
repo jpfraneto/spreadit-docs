@@ -6,7 +6,7 @@ sidebar_position: 4
 
 Esta ruta se utiliza para obtener información específica de un mercado.
 
-<button>GET</button> /markets/:market_id
+<button>GET</button> /api/markets/:market_id
 
 ```json
 {
